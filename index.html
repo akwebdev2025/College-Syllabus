@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#174a3a">
+  <meta name="description" content="Find official Panjab University syllabus information by course, semester, subject and category.">
+  <title>College Syllabus Buddy | Panjab University</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="./" aria-label="College Syllabus Buddy home">
+      <span class="brand-mark">CS</span><span><strong>College Syllabus Buddy</strong><small>Panjab University · Chandigarh</small></span>
+    </a>
+    <button id="themeToggle" class="icon-button" type="button" aria-label="Toggle dark mode" title="Toggle light/dark mode">◐</button>
+  </header>
+  <main class="page">
+    <section class="hero">
+      <p class="eyebrow">OFFICIAL SYLLABUS FINDER</p>
+      <h1>Your syllabus.<br><span>Clear and reliable.</span></h1>
+      <p class="hero-copy">Search syllabus records sourced from official Panjab University documents. Every available record links back to its source.</p>
+      <div class="status-row"><span class="live-dot"></span><span id="updatedStatus">Checking local syllabus data…</span></div>
+    </section>
+
+    <section class="search-panel" aria-labelledby="searchTitle">
+      <div class="section-heading"><div><p class="eyebrow">START HERE</p><h2 id="searchTitle">Find a paper</h2></div><button id="resetButton" class="text-button" type="button">Clear filters ↺</button></div>
+      <form id="searchForm">
+        <label>Course / programme
+          <select id="courseSelect"><option value="">All available courses</option></select>
+        </label>
+        <div class="field-grid">
+          <label>Semester
+            <select id="semesterSelect" disabled><option value="">All semesters</option></select>
+          </label>
+          <label>Category
+            <select id="categorySelect" disabled><option value="">All categories</option></select>
+          </label>
+        </div>
+        <label>Subject
+          <select id="subjectSelect" disabled><option value="">All subjects</option></select>
+        </label>
+        <label>Search by subject, paper title or paper code
+          <input id="queryInput" type="search" placeholder="e.g. English, GEOG-101…" autocomplete="off">
+        </label>
+        <button class="primary-button" type="submit">Search syllabus <span aria-hidden="true">→</span></button>
+      </form>
+      <p class="helper">Filters update from the published JSON data. Unavailable fields are not guessed.</p>
+    </section>
+
+    <section class="results-section" aria-live="polite">
+      <div class="results-heading"><div><p class="eyebrow">SYLLABUS LIBRARY</p><h2 id="resultsTitle">Available papers</h2></div><span id="resultCount" class="count-pill">0 records</span></div>
+      <div id="messageBox" class="message-box">Loading syllabus records…</div>
+      <div id="results" class="results-grid"></div>
+    </section>
+
+    <section class="source-note">
+      <span class="source-icon">✓</span>
+      <div><strong>Source-first by design</strong><p>This site displays only validated records published in its data files. Check the linked official PU document for the authoritative syllabus.</p>
+        <a href="https://puchd.ac.in/nsyllabus.php?qstrfacid=1" target="_blank" rel="noopener noreferrer">Official PU syllabus index ↗</a>
+      </div>
+    </section>
+  </main>
+  <footer><span>College Syllabus Buddy</span><span>Independent student project · Verify with PU</span></footer>
+
+  <template id="resultTemplate">
+    <article class="result-card">
+      <div class="card-top"><span class="category-tag"></span><span class="session-tag"></span></div>
+      <h3 class="paper-title"></h3>
+      <p class="subject-name"></p>
+      <div class="meta-grid"></div>
+      <details class="details">
+        <summary>View syllabus details</summary>
+        <div class="detail-content"></div>
+      </details>
+      <div class="card-actions"><button class="outline-button print-button" type="button">Print</button><a class="source-button" target="_blank" rel="noopener noreferrer">Official source ↗</a></div>
+    </article>
+  </template>
+</body>
+</html>

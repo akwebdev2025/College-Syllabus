@@ -1,0 +1,91 @@
+{
+  "schemaVersion": "1.0",
+  "indexes": [
+    {
+      "url": "https://puchd.ac.in/nsyllabus.php?qstrfacid=1",
+      "course": "ba",
+      "kind": "index",
+      "label": "PU BA/Arts syllabus index"
+    },
+    {
+      "url": "https://www.manuscripts.puchd.ac.in/nep-syllabus.php?qstrfacid=1",
+      "course": "ba",
+      "kind": "index",
+      "label": "PU NEP syllabus index"
+    },
+    {
+      "url": "https://puchd.ac.in/nsyllabus.php?qstrfacid=11",
+      "course": "ba",
+      "kind": "index",
+      "label": "PU BA/BSc General and Honours index"
+    },
+    {
+      "url": "https://websys.puchd.ac.in/nep-syllabus.php?qstrfacid=11",
+      "course": "ba",
+      "kind": "index",
+      "label": "PU multi-faculty NEP index"
+    },
+    {
+      "url": "https://www.puchd.ac.in/syllabus-old.php",
+      "course": "ba",
+      "kind": "archive",
+      "label": "PU older syllabus archive"
+    },
+    {
+      "url": "https://puchd.ac.in/syllabus-old.php?qstrfacid=11",
+      "course": "ba",
+      "kind": "archive",
+      "label": "PU faculty 11 older syllabus archive"
+    }
+  ],
+  "seedDocuments": [
+    {
+      "url": "https://puchd.ac.in/includes/syllabus/2026/20260730163655-compulsorypapersforb.a.b.a.honsb.a.pdf?2026",
+      "course": "ba",
+      "category": "Compulsory",
+      "label": "BA Compulsory 2026"
+    },
+    {
+      "url": "https://puchd.ac.in/includes/syllabus/2026/20260702111502-b.a.b.a.hons.b.a.hons.withres.1.pdf?2026",
+      "course": "ba",
+      "category": "DSC",
+      "label": "BA DSC semesters 1-2 2026"
+    },
+    {
+      "url": "https://puchd.ac.in/includes/syllabus/2026/20260702111839-b.a.-b.ahons-b.a.honswithres.2.pdf?2026",
+      "course": "ba",
+      "category": "DSC",
+      "label": "BA DSC semesters 3-4 2026"
+    },
+    {
+      "url": "https://puchd.ac.in/includes/syllabus/2026/20260720161649-b.a.-b.ahons-b.a.honswithresearch.pdf?2026",
+      "course": "ba",
+      "category": "DSC",
+      "label": "BA DSC semesters 5-6 2026"
+    },
+    {
+      "url": "https://puchd.ac.in/includes/syllabus/2026/20260810121152-b.a.honswithres7th8thsem2026-27.pdf?2026",
+      "course": "ba",
+      "category": "DSC",
+      "label": "BA DSC semesters 7-8 2026"
+    },
+    {
+      "url": "https://puchd.ac.in/includes/syllabus/2026/20260728160208-b.a.mdc1stto3rdsemesterforarts.pdf?2026",
+      "course": "ba",
+      "category": "MDC",
+      "label": "BA MDC semesters 1-3 2026"
+    },
+    {
+      "url": "https://puchd.ac.in/includes/syllabus/2026/20260731160347-b.ab.sc.sec1stto3rdsemester.pdf?2026",
+      "course": "ba",
+      "category": "SEC",
+      "label": "BA SEC semesters 1-3 2026"
+    },
+    {
+      "url": "https://puchd.ac.in/includes/syllabus/2026/20260804160548-b.ab.scvac.pdf?2026",
+      "course": "ba",
+      "category": "VAC",
+      "label": "BA VAC 2026"
+    }
+  ]
+}

@@ -1,0 +1,124 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "College Syllabus Buddy record",
+  "type": "object",
+  "required": [
+    "course",
+    "semester",
+    "category",
+    "subject",
+    "sourceUrl",
+    "documentHash",
+    "academicSession"
+  ],
+  "properties": {
+    "course": {
+      "type": "string",
+      "minLength": 1
+    },
+    "programme": {
+      "type": "string"
+    },
+    "semester": {
+      "type": [
+        "string",
+        "integer"
+      ]
+    },
+    "category": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subject": {
+      "type": "string",
+      "minLength": 1
+    },
+    "paperCode": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "paperTitle": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "paperType": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "credits": {
+      "type": [
+        "number",
+        "string",
+        "null"
+      ]
+    },
+    "units": {
+      "type": [
+        "array",
+        "string",
+        "null"
+      ]
+    },
+    "detailedTopics": {
+      "type": [
+        "array",
+        "string",
+        "null"
+      ]
+    },
+    "qpStructure": {
+      "type": [
+        "object",
+        "array",
+        "string",
+        "null"
+      ]
+    },
+    "examinationPattern": {
+      "type": [
+        "object",
+        "array",
+        "string",
+        "null"
+      ]
+    },
+    "academicSession": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceUrl": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "documentHash": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "lastChecked": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "lastUpdated": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "documentName": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}
