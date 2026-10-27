@@ -1,4 +1,42 @@
 {
   "schemaVersion": "1.0",
-  "updates": []
+  "updates": [
+    {
+      "timestamp": "2026-10-27T09:16:10+00:00",
+      "documents": [
+        {
+          "document": "data/source-pdfs/ba/20260702111502-b.a.b.a.hons.b.a.hons.withres.1.pdf",
+          "sourceUrl": "https://puchd.ac.in/includes/syllabus/2026/20260702111502-b.a.b.a.hons.b.a.hons.withres.1.pdf?2026",
+          "sha256": "3a50193f1a7b55172a728dcdd33848a23ab068b3948f5fd1464936020e874b95",
+          "records": 50,
+          "category": "DSC",
+          "session": "2026-2027"
+        },
+        {
+          "document": "data/source-pdfs/ba/20260702111839-b.a.-b.ahons-b.a.honswithres.2.pdf",
+          "sourceUrl": "https://puchd.ac.in/includes/syllabus/2026/20260702111839-b.a.-b.ahons-b.a.honswithres.2.pdf?2026",
+          "sha256": "2bf66489ea42ee26f5a42b9b2308fe20336a3b3d15ea2646f6083a67be923741",
+          "records": 114,
+          "category": "DSC",
+          "session": "2026-2027"
+        },
+        {
+          "document": "data/source-pdfs/ba/20260720161649-b.a.-b.ahons-b.a.honswithresearch.pdf",
+          "sourceUrl": "https://puchd.ac.in/includes/syllabus/2026/20260720161649-b.a.-b.ahons-b.a.honswithresearch.pdf?2026",
+          "sha256": "78d62f277bd4b77805ce2861d188abd0d43cc18aeba71e32e0f1819ba5efbd62",
+          "records": 172,
+          "category": "DSC",
+          "session": "2026-2027"
+        },
+        {
+          "document": "data/source-pdfs/ba/20260804160548-b.ab.scvac.pdf",
+          "sourceUrl": "https://puchd.ac.in/includes/syllabus/2026/20260804160548-b.ab.scvac.pdf?2026",
+          "sha256": "f7e84cf15ca51888b872295352dc4894b7faeacf7269473fedebc3b05a76a776",
+          "records": 40,
+          "category": "VAC",
+          "session": "2026-2027"
+        }
+      ]
+    }
+  ]
 }
